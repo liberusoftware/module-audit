@@ -19,7 +19,6 @@ Actor, tenant, request and correlation-aware material-change audit with export a
 - Actor
 - Tenant
 - Request and correlation-aware material-change audit with export and retention boundaries
-- Automatic lifecycle capture for models in the `genealogy_` table namespace
 
 ## Requirements and installation
 
@@ -50,7 +49,6 @@ The trusted `liberusoftware/composer-installer` places it in `/modules/audit`. T
 ### Public contracts
 
 - `src/Contracts/AuditRecorder.php`
-- `src/Support/ModelAuditListener.php` captures created, updated, and deleted genealogy model changes through the audit contract.
 
 ### Commands
 
